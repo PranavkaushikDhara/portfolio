@@ -37,7 +37,7 @@ monetization_on
           </Typography>
           {/* <Typography> */}
             <ul>
-          <li>Educated 150+ CS students,led recitations,designed labs,class activities,assignments, 
+          <li>Educated 150+ CS students, led recitations, designed labs, class activities, assignments, 
           graded coursework and increased student engagement by 40 % by introducing modern and robust methods for learning.</li>
           <li>Employed different technologies like GraphDB, EdgeDB, Jenkins,LSTM and TensorFlow.</li>
           </ul>
@@ -71,19 +71,17 @@ monetization_on
           {/* <Typography> */}
             <ul>
           <li>Specialized in identifying and solving security vulnerabilities and bugs reported by more than 
-          10 customers.<br></br></li>
+          10 customers.</li>
           <li>Constructed more than 10 captivating ATM screens, elevating user experience for NDC and 
-            Diebold platforms.<br></br></li>
+            Diebold platforms.</li>
 <li>Coded 10+ Sign-on messages for Visa and Mastercard Interfaces ensuring compliance with strict 
-  specifications.<br></br></li>
-<li>Created a Java utility to encrypt 15 million encrypted transactions to prevent csrf and 
-  trained 2 teams in Git.<br></br></li>
-<li>Implemented a Slack Bot that quickly navigates and tracks Jira tickets.</li>
+  specifications.</li>
+
 </ul>
           {/* </Typography> */}
         </TimelineContent>
       </TimelineItem>
-      <TimelineItem>
+      {/* <TimelineItem>
         <TimelineOppositeContent
           sx={{ m: 'auto 0' }}
           align="right"
@@ -106,11 +104,17 @@ monetization_on
           <br />
           NCR Corporation
           </Typography>
-          <Typography>
-          Prepared to assist development team members,Wrote code for developing a slack bot
-          </Typography>
+   
+            <ul>
+              <li>Prepared to assist development team members</li>
+              <li>Created a Java utility to encrypt 15 million encrypted transactions to prevent csrf and 
+  trained 2 teams in Git.</li>
+<li>Implemented a Slack Bot that quickly navigates and tracks Jira tickets.</li>
+            </ul>
+       
+
         </TimelineContent>
-      </TimelineItem>
+      </TimelineItem> */}
       
     </Timeline>
   );
