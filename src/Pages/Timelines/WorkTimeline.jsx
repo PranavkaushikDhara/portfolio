@@ -37,8 +37,8 @@ monetization_on
           </Typography>
           {/* <Typography> */}
             <ul>
-          <li>Educated 150+ CS students, led recitations, designed labs, class activities, assignments, 
-          graded coursework, and increased student engagement by 40 % by introducing modern and robust methods for learning.</li>
+          <li>Educated 150+ CS students,led recitations,designed labs,class activities,assignments, 
+          graded coursework and increased student engagement by 40 % by introducing modern and robust methods for learning.</li>
           <li>Employed different technologies like GraphDB, EdgeDB, Jenkins,LSTM and TensorFlow.</li>
           </ul>
           {/* </Typography> */}
@@ -90,7 +90,7 @@ monetization_on
           variant="body2"
           color="white"
         >
-         Software Engineer Intern
+         SWE Intern
         </TimelineOppositeContent>
         <TimelineSeparator>
           <TimelineConnector />
@@ -107,7 +107,7 @@ monetization_on
           NCR Corporation
           </Typography>
           <Typography>
-          Prepared and submitted reports and other documentation to assist development team members.
+          Prepared to assist development team members,Wrote code for developing a slack bot
           </Typography>
         </TimelineContent>
       </TimelineItem>
