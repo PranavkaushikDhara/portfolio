@@ -5,7 +5,7 @@ const Header = () => {
     return (
         <Container>
             <ContactMe>
-                <button className='btn btn-success'>Contact Me!</button>
+                <button className='btn btn-success disabled'>Contact Me!</button>
             </ContactMe>
             <SideOpen>
                 <Drawer></Drawer>
