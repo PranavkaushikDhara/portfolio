@@ -43,7 +43,7 @@ margin-right: 10px;
 display: flex;
 align-items: center;
 width: 100%;
-background-image: url(${bannerbg});
+/* background-image: url(${bannerbg}); */
 background-size: cover;
 `;
 
@@ -69,10 +69,21 @@ const Inner = styled.div`
 const Name = styled.div`
 display: flex;
 align-items: center;
-h2{
+background: linear-gradient(to right,#5656a6,red);
+color: transparent;
+text-shadow: 0 0 60px #3c3c5de6;
+-webkit-background-clip: text;
+animation: anime 1s infinite alternate;
+
+@keyframes anime {
+    100%{
+        text-shadow: 0 0 60px rgba(21,0,255,0.457);
+    }
+}
+/* h2{
     color: white;
     font-weight: bold;
-}
+} */
 `;
 
 const BannerDetails = styled.div`
