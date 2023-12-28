@@ -9,11 +9,9 @@ import CustomTabPanel from './CustomTabPanel';
 import Education from './Education';
 import Footer from './Footer';
 import OtherSkills from './OtherSkills';
-import { SpeedInsights } from "@vercel/speed-insights/next"
 const Home = () => {
   return (
     <Container>
-      <SpeedInsights/>
       <Sidebar>
         <Sidenav />
       </Sidebar>
