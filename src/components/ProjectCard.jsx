@@ -34,6 +34,7 @@ const Container = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  box-shadow:10px 10px 30px #8d5858  
 `;
 
 const ImageContainer = styled.div`
