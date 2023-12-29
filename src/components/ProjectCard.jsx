@@ -1,12 +1,12 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 import styled from 'styled-components';
 
 const ProjectCard = (props) => {
   return (
-  
+    <Link href={props.link}>
     <Container>
-        
+
       <ImageContainer>
         <Image src={props.image} alt={props.title} />
       </ImageContainer>
@@ -18,27 +18,33 @@ const ProjectCard = (props) => {
           <h3>{props.desc}</h3>
         </Desc>
       </Details>
-      <Outer>
-      <a href={props.link} target='_blank'>See Project</a>
-      </Outer>
+      
+
     </Container>
+          </Link>
     
   );
 };
 
+const Link=styled.a`
+  text-decoration: none;
+`
 const Container = styled.div`
   width: 100%;
+  height: 100%;
   background-color: white;
   border-radius: 10px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  box-shadow:10px 10px 30px #8d5858  
+  /* box-shadow:10px 10px 30px #8d5858   */
+  
 `;
 
 const ImageContainer = styled.div`
   flex: 0.6;
+  /* height:60%; */
   width: 100%;
   border-radius: 10px 10px 0 0;
   overflow: hidden;
@@ -52,9 +58,9 @@ const Image = styled.img`
 
 const Details = styled.div`
   overflow: scroll;
-  flex: 0.4;
   padding: 20px;
   width: 100%;
+  flex: 0.4;
 `;
 
 const Title = styled.div`
