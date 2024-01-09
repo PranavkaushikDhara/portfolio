@@ -66,16 +66,16 @@ const Details = styled.div`
 const Title = styled.div`
   h2 {
     color: black;
-    font-size: 20px;
-    font-weight: bold;
+    font-size: 16px;
+    font-weight: 800;
   }
 `;
 
 const Desc = styled.div`
   h3 {
     color: black;
-    font-size: 16px;
-    font-weight: 400;
+    font-size: 12px;
+    font-weight: 600;
   }
 `;
 

@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import dp from '../assets/dp.png'
+import dp from '../assets/dp.jpg'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLinkedinIn } from '@fortawesome/free-brands-svg-icons';
 import mask from '../assets/paint.png'
@@ -43,7 +43,7 @@ margin-right: 10px;
 display: flex;
 align-items: center;
 width: 100%;
-/* background-image: url(${bannerbg}); */
+background-image: url(${bannerbg});
 background-size: cover;
 `;
 
@@ -69,15 +69,22 @@ const Inner = styled.div`
 const Name = styled.div`
 display: flex;
 align-items: center;
-background: linear-gradient(to right,#5656a6,red);
+background: linear-gradient(to right,white,#fad621 ,black);
 color: transparent;
-text-shadow: 0 0 60px #3c3c5de6;
+background-size: 200%;
 -webkit-background-clip: text;
-animation: anime 1s infinite alternate;
+background-clip: text;
+animation: anime 3s infinite linear;
 
 @keyframes anime {
+    0%{
+     background-position  :0% 75% ;
+    }
+    50%{
+     background-position  :100% 30% ;
+    }
     100%{
-        text-shadow: 0 0 60px rgba(21,0,255,0.457);
+     background-position  :0% 70% ;
     }
 }
 /* h2{

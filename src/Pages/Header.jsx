@@ -2,10 +2,16 @@ import React from 'react'
 import styled from 'styled-components'
 import Drawer from '../components/Drawer'
 const Header = () => {
+
+    const openGmail=()=>{
+            var emailAddress = 'pranavkaushik300@gmail.com';
+            var composeUrl = 'https://mail.google.com/mail/u/0/?view=cm&fs=1&to=' + encodeURIComponent(emailAddress);
+            window.open(composeUrl, '_blank');
+    }
     return (
         <Container>
             <ContactMe>
-                <button className='btn btn-success disabled'>Contact Me!</button>
+                <button className='btn btn-success' onClick={openGmail}>Contact Me!</button>
             </ContactMe>
             <SideOpen>
                 <Drawer></Drawer>
@@ -31,5 +37,6 @@ const SideOpen = styled.div`
 }
 `
 
-const ContactMe = styled.div``;
+const ContactMe = styled.div`
+`;
 export default Header

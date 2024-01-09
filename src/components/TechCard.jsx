@@ -20,7 +20,9 @@ const TechCard = (props) => {
 
 const Container = styled.div`
   background-color: #1c1b23;
-  box-shadow:-5px -5px 30px rgba(0,0,0,0.12)
+  box-shadow:-5px -5px 30px rgba(0,0,0,0.12);
+  border: 1px solid ${(props) => props.color};
+  border-radius: 10px;
 `;
 
 const CardTitle = styled.div`

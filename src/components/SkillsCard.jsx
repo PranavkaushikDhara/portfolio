@@ -20,7 +20,7 @@ const Image=styled.img`
 display: flex;
 flex: 1;
 width: 100%;
-object-fit: cover;
+object-fit: contain;
 border-radius: 10px;
 height: 100%;
 `;

@@ -8,7 +8,7 @@ const Drawer = () => {
   return (
     <div>
       <a className="btn btn-success" data-bs-toggle="offcanvas" href="#leftnav" role="button" aria-controls="offcanvasExample">
-        View Details
+        Socials
       </a>
 
 
