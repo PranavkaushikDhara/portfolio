@@ -36,7 +36,7 @@ const Sidenav = () => {
                         <Icon>
                             <FontAwesomeIcon icon={faFile} />
                         </Icon>
-                        <a href="https://drive.google.com/file/d/1O7FMMIzevIfIs4QViEJ_slQO-OpbKP3q/view?usp=sharing" target="_blank">Resume</a>
+                        <a href="https://drive.google.com/file/d/1WIgUM9McCaAo2TaUF0-a4caloR5_wJFW/view?usp=sharing" target="_blank">Resume</a>
                     </div>
                 </Elements>
             </NavElements>
