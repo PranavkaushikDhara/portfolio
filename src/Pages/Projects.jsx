@@ -12,7 +12,7 @@ const Projects = () => {
   const projects=[
     {key:1,image:docuGenieImg,title:"DocuGenie",
     desc:"OpenAI, Dall-E, Python, Flask",
-    link:"https://github.com/PranavkaushikDhara/amazon-clone"},
+    link:"https://github.com/PranavkaushikDhara/DocuGeniee"},
     {key:2,image:groceryimg,title:"GroceryHub",desc:"NodeJs, Express, Mongoose, React,Tailwind CSS",link:"https://github.com/PranavkaushikDhara/GroceryHub"},
     {key:3,image:gitimg,title:"BugHub",desc:"OpenAI, Python,GitHub API,Jupyter,StackExchange API",link:"https://github.com/PranavkaushikDhara/Bug-Hub-Data-Pipeline-for-Stack-Overflow-And-GitHub"},
     {key:4,image:milvusimg,title:"Vector Similarity Search",desc:"React,Flask,Milvus,OpenAI",link:"https://github.com/PranavkaushikDhara/MilvusSearch"},
