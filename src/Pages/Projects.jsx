@@ -6,14 +6,15 @@ import kerasimg from '../assets/Keras.jpeg'
 import gitimg from '../assets/GitHub.jpeg'
 import milvusimg from '../assets/Milvus.jpeg'
 import groceryimg from '../assets/grocery.jpeg'
+import docuGenieImg from '../assets/DocuGenie.png'
 const Projects = () => {
 
   const projects=[
-    {key:1,image:amazonimg,title:"Amazon clone",
-    desc:"NodeJs, Express, Mongoose, React,BootStrap",
+    {key:1,image:docuGenieImg,title:"DocuGenie",
+    desc:"OpenAI, Dall-E, Python, Flask",
     link:"https://github.com/PranavkaushikDhara/amazon-clone"},
     {key:2,image:groceryimg,title:"GroceryHub",desc:"NodeJs, Express, Mongoose, React,Tailwind CSS",link:"https://github.com/PranavkaushikDhara/GroceryHub"},
-    {key:3,image:gitimg,title:"BugHub",desc:"Python,GitHub API,Jupyter,StackExchange API",link:"https://github.com/PranavkaushikDhara/Bug-Hub-Data-Pipeline-for-Stack-Overflow-And-GitHub"},
+    {key:3,image:gitimg,title:"BugHub",desc:"OpenAI, Python,GitHub API,Jupyter,StackExchange API",link:"https://github.com/PranavkaushikDhara/Bug-Hub-Data-Pipeline-for-Stack-Overflow-And-GitHub"},
     {key:4,image:milvusimg,title:"Vector Similarity Search",desc:"React,Flask,Milvus,OpenAI",link:"https://github.com/PranavkaushikDhara/MilvusSearch"},
   ]
   return (
