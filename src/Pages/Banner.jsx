@@ -13,7 +13,7 @@ const Banner = () => {
                 <Image src={dp} alt="" />
                 <BannerDetails>
                     <Name>
-                        <h2>Pranav Kaushik Dhara</h2>
+                        <h2>Pranav Kaushik</h2>
                     </Name>
                     <a href="https://www.linkedin.com/in/dharapranavkaushik/" target="_blank">
                     <SmallIcon>
