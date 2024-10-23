@@ -43,7 +43,7 @@ const Drawer = () => {
               <Icon>
                 <FontAwesomeIcon icon={faFile} />
               </Icon>
-              <a href="https://drive.google.com/file/d/1O7FMMIzevIfIs4QViEJ_slQO-OpbKP3q/view?usp=sharing" target="_blank">Resume</a>
+              <a href="https://drive.google.com/file/d/1vEU07ASkfnrROL4D7f2r28rwgeYP9pXj/view?usp=drivesdk">Resume</a>
             </div>
           </Elements>
         </Container>
