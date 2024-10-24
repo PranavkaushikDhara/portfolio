@@ -1,8 +1,8 @@
 import React from 'react'
 import styled from 'styled-components'
 import ProjectCard from '../components/ProjectCard';
-import amazonimg from '../assets/amazon-clone.webp'
-import kerasimg from '../assets/Keras.jpeg'
+// import amazonimg from '../assets/amazon-clone.webp'
+// import kerasimg from '../assets/Keras.jpeg'
 import gitimg from '../assets/GitHub.jpeg'
 import milvusimg from '../assets/Milvus.jpeg'
 import groceryimg from '../assets/grocery.jpeg'
@@ -15,13 +15,11 @@ const Projects = () => {
     link:"https://github.com/PranavkaushikDhara/DocuGeniee"},
     {key:2,image:groceryimg,title:"GroceryHub",desc:"NodeJs, Express, Mongoose, React,Tailwind CSS",link:"https://github.com/PranavkaushikDhara/GroceryHub"},
     {key:3,image:gitimg,title:"BugHub",desc:"OpenAI, Python,GitHub API,Jupyter,StackExchange API",link:"https://github.com/PranavkaushikDhara/Bug-Hub-Data-Pipeline-for-Stack-Overflow-And-GitHub"},
-    {key:4,image:milvusimg,title:"Vector Similarity Search",desc:"React,Flask,Milvus,OpenAI",link:"https://github.com/PranavkaushikDhara/MilvusSearch"},
+    {key:4,image:milvusimg,title:"Vector Similarity",desc:"React,Flask,Milvus,OpenAI",link:"https://github.com/PranavkaushikDhara/MilvusSearch"},
   ]
   return (
     <Container>
-      <Heading>
       <h2>Projects</h2>
-      </Heading>
     <ProjectsGrid>
       {
         projects.map((project)=>(
@@ -35,17 +33,18 @@ const Projects = () => {
   )
 }
 
-const Heading=styled.div`
-padding:0 0 0 2.5rem ;
-h2{
-  font-size: 24px;
-}
-`;
+
 const Container=styled.div`
 width: 100%;
 margin-top: 20px;
 color: white;
 /* text-align: center; */
+h2{
+        text-align: center;
+        font-size: 2.5rem;
+        margin-bottom: 30px;
+        color: #fff;
+    }
 `;
 
 const ProjectsGrid=styled.div`

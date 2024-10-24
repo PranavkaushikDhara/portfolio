@@ -9,6 +9,8 @@ import CustomTabPanel from './CustomTabPanel';
 import Education from './Education';
 import Footer from './Footer';
 import OtherSkills from './OtherSkills';
+import Cerifications from './Cerifications';
+
 const Home = () => {
   return (
     <Container>
@@ -18,14 +20,14 @@ const Home = () => {
       <Mainmatter>
         <Header></Header>
         <Banner />
-        <Projects></Projects>
         <Skills></Skills>
+        <Cerifications></Cerifications>
+        <Projects></Projects>
         <OtherSkills></OtherSkills>
         <Education></Education>
         <CustomTabPanel></CustomTabPanel>
         <Footer />
       </Mainmatter>
-
     </Container>
   );
 };

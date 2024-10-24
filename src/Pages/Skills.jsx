@@ -7,17 +7,17 @@ const Skills = () => {
         {
             skill:"Frontend",
             key:1,
-            techs:["HTML","React","Javascript","Bootstrap","Tailwind"]
+            techs:["HTML","React","Angular","next.Js","Javascript","Bootstrap","Tailwind"]
         },
         {
             skill:"Backend",
             key:2,
-            techs:["NodeJs","Express Js","Java","Spring","SpringBoot"]
+            techs:["Java","Spring","SpringBoot","NodeJs","Express Js"]
         },
         {
             skill:"Database",
             key:3,
-            techs:["MongoDB","MySQL","Oracle","Postgres","Milvus","EdgeDB"]
+            techs:["MySQL","Oracle","Postgres","MongoDB","Milvus","EdgeDB"]
         },
         {
             skill:"Devops",
@@ -27,9 +27,9 @@ const Skills = () => {
     ]
   return (
     <Container>
-        <Heading>
+
         <h2>Skills</h2>
-        </Heading>
+
         <SkillCards>
         {skills.map(skill=>(
             <TechCard key={skill.key} title={skill.skill} elements={skill.techs}></TechCard>
@@ -38,16 +38,16 @@ const Skills = () => {
     </Container>
   )
 }
-const Heading=styled.div`
-padding:0 0 0 2.5rem ;
-`;
+
 const Container=styled.div`
 width: 100%;
 margin-top: 20px;
 h2{
-    color: white;
-    font-size: 24px;
-}
+        text-align: center;
+        font-size: 2.5rem;
+        margin-bottom: 30px;
+        color: #fff;
+    }
 
 `;
 const SkillCards=styled.div`

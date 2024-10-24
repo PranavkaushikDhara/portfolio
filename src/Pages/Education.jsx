@@ -10,9 +10,11 @@ const Education = () => {
 
 const Container=styled.div`
 padding: 2.5rem;
-h2{
-    color: white;
-    font-size: 24px;
-}
+h2 {
+        text-align: center;
+        font-size: 2.5rem;
+        margin-bottom: 30px;
+        color: #fff;
+    }
 `;
 export default Education
