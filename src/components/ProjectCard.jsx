@@ -10,7 +10,7 @@ const ProjectCard = (props) => {
         </ImageContainer>
         <Details>
           <Title>
-            <h3>{props.title}</h3>
+            <h5>{props.title}</h5>
           </Title>
           <Desc>
             <h3>{props.desc}</h3>

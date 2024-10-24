@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import dp from '../assets/dp.jpg'
+import dp from '../assets/dp.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLinkedinIn } from '@fortawesome/free-brands-svg-icons';
 import mask from '../assets/paint.png'
